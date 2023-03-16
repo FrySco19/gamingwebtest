@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script>
+function smoothScroll(event, targetId) {
+  event.preventDefault();
+  var target = document.getElementById(targetId);
+  target.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
+    <title>Sito di gaming</title>
+    <style>
+#recensioni {
+  background-color: #0b2746;
+  color: white;
+  padding: 40px;
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  resize: vertical;
+}
+
+
+      body {
+        background-image: url('sfondo.jpg');
+        background-size: cover;
+      }
+      
+      h1 {
+        text-align: center;
+        color: white;
+      }
+      
+      .console {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+      }
+      
+      .console img {
+        float: left;
+        margin-right: 20px;
+        max-width: 300px;
+        max-height: 200px;
+      }
+      
+      .console h2 {
+        margin-top: 0;
+      }
+      
+      .console p {
+        text-align: justify;
+      }
+      
+      .pros {
+        color: green;
+      }
+      
+      .cons {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sito di gaming</h1>
+    <body>
+
+
+ <header>
+      <nav>
+        <ul>
+          <li><a href="#playstation5" onclick="smoothScroll(event, 'playstation5')">Playstation 5</a></li>
+          <li><a href="#nintendoswitch" onclick="smoothScroll(event, 'nintendoswitch')">Nintendo Switch</a></li>
+          <li><a href="#xboxseriesx" onclick="smoothScroll(event, 'xboxseriesx')">Xbox Series X</a></li>
+        
+          <li class="dropdown">
+            <a href="#">Negozi</a>
+            <div class="dropdown-content">
+              <a href="https://www.gamestop.com"><img src="C:\Users\Lolxd\OneDrive\Desktop\mysite\png\gamestop_logo.png" alt="GameStop" /></a>
+              <a href="https://www.bestbuy.com"><img src="C:\Users\Lolxd\OneDrive\Desktop\mysite\png\bestbuy_logo.png" alt="Best Buy" /></a>
+              <a href="https://www.amazon.com"><img src="C:\Users\Lolxd\OneDrive\Desktop\mysite\png\amazon_logo.png" alt="Amazon" /></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  
+  <main>
+
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Gaming Console Reviews</p>
+  </footer>
+</body>
+</html>
+<head>
+  <style>
+    #playstation5 {
+      background-color: blue;
+    }
+    
+    #xboxseriesx {
+      background-color: green;
+    }
+    
+    #nintendoswitch {
+      background-color: red;
+    }
+  </style>
+</head>
+
+<section id="playstation5">
+    <div class="console">
+
+      <img src="C:\Users\Lolxd\OneDrive\Desktop\mysite\png\Playstation5.jpg" alt="PlayStation 5">
+      <h2>PlayStation 5</h2>
+      <p>La PlayStation 5 è la nuova console di Sony, lanciata nel 2020. È dotata di una potenza di calcolo elevata e di una grafica avanzata, che garantiscono un'esperienza di gioco immersiva. Tra i pregi della PS5, possiamo citare la vasta libreria di giochi disponibili, la presenza di esclusive Sony, la compatibilità con la maggior parte dei giochi PS4 e la possibilità di giocare in 4K. Tuttavia, la console presenta alcuni difetti, come il prezzo elevato e la mancanza di alcuni giochi cross-platform.</p>
+      <h3>Pregi:</h3>
+      <ul class="pros">
+        <li>Libreria vasta e variegata</li>
+        <li>Esclusive Sony</li>
+        <li>Compatibilità con i giochi PS4</li>
+        <li>Grafica avanzata e giocabilità immersiva</li>
+        <li>Possibilità di giocare in 4K</li>
+      </ul>
+      <h3>Difetti:</h3>
+      <ul class="cons">
+        <li>Prezzo elevato</li>
+        <li>Mancanza di alcuni giochi cross-platform</li>
+<a href="https://www.playstation.com"> Playstation Official Site</a>
+      </ul>
+</section>
+    </div>
+    <section id="xboxseriesx">
+    <div class="console">
+      <img src="C:\Users\Lolxd\OneDrive\Desktop\mysite\png\XboxSeriesX.jpeg" alt="Xbox Series X">
+      <h2>Xbox Series X</h2>
+      <p>L'Xbox Series X è la nuova console di Microsoft, lanciata nel 2020. Anche questa console presenta una grafica avanzata e una potenza di calcolo elevata, oltre a una vasta libreria di giochi disponibili. Tra i pregi dell'Xbox Series X, possiamo citare la presenza di alcuni giochi cross-platform, la possibilità di giocare in 4K e la compatibilità con i giochi delle precedenti generazioni di console Xbox. Tuttavia, anche questa console presenta alcuni difetti,
+
+      <h3>Pregi:</h3>
+      <ul class="pros">
+        <li>Libreria vasta e variegata</li>
+        <li>Compatibilità con i giochi delle precedenti generazioni di console Xbox</li>
+        <li>Possibilità di giocare in 4K</li>
+        <li>Alcuni giochi cross-platform</li>
+      </ul>
+      <h3>Difetti:</h3>
+      <ul class="cons">
+        <li>Prezzo elevato</li>
+        <li>Esclusive Microsoft limitate</li>
+        <li>Mancanza di alcuni giochi cross-platform</li>
+<a href="https://www.xbox.com"> Xbox Official Site</a>
+      </ul>
+    </div>
+    </section>
+<section id="nintendoswitch">
+    <div class="console">
+
+      <img src="C:\Users\Lolxd\OneDrive\Desktop\mysite\png\NintendoSwitch.jpg" alt="Nintendo Switch">
+      <h2>Nintendo Switch</h2>
+      <p>La Nintendo Switch è una console ibrida, lanciata nel 2017, che consente di giocare sia in modalità portatile che su uno schermo TV. È dotata di una vasta libreria di giochi Nintendo e di alcuni giochi third-party. Tra i pregi della Nintendo Switch, possiamo citare la versatilità, la portabilità e la presenza di esclusive Nintendo. Tuttavia, la console presenta anche alcuni difetti, come la grafica inferiore rispetto alle altre console e la mancanza di alcuni giochi third-party.</p>
+      <h3>Pregi:</h3>
+      <ul class="pros">
+        <li>Versatilità e portabilità</li>
+        <li>Esclusive Nintendo</li>
+        <li>Alcuni giochi third-party disponibili</li>
+      </ul>
+      <h3>Difetti:</h3>
+      <ul class="cons">
+        <li>Grafica inferiore rispetto alle altre console</li>
+        <li>Mancanza di alcuni giochi third-party</li>
+<a href="https://www.nintendo.com"> Nintendo Official Site</a>
+      </ul>
+</section>
+<section id="recensioni">
+  <form method="post" action="invia_recensione.php">
+    <h2>Lascia una recensione</h2>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="review">Recensione:</label>
+    <textarea id="review" name="review" required></textarea><br>
+    <label for="stars">Voto:</label>
+    <select id="stars" name="stars" required>
+      <option value="">Seleziona un valore</option>
+      <option value="1">⭐</option>
+      <option value="2">⭐⭐</option>
+      <option value="3">⭐⭐⭐</option>
+      <option value="4">⭐⭐⭐⭐</option>
+      <option value="5">⭐⭐⭐⭐⭐</option>
+    </select>
+    <button type="submit">Invia recensione</button>
+  </form>
+</section>
+
+
+
+    </div>
+
+  </body>
+</html>
